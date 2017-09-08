@@ -1,0 +1,119 @@
+body {
+    box-sizing: border-box;
+}
+
+video {
+  object-fit: cover;
+}
+
+audio {
+    display: none;
+}
+
+#fullpage video, .landing-page-video-dimensions {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.header {
+    font-family: Satisfy;
+    color: azure;
+    font-size: 150px;
+    z-index: 2;
+    display: block;
+    position: absolute;
+    margin: 267px 192px 446px 192px;
+}
+
+.header2 {
+    font-family: Satisfy;
+    color: azure;
+    font-size: 50px;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    margin: 500px 665px 213px 665px;
+}
+
+.header3 {
+    font-family: Satisfy;
+    color: azure;
+    font-size: 100px;
+    z-index: 2;
+    display: block;
+    position: absolute;
+    margin: 100px 192px 446px 192px;
+}
+
+.header4 {
+    font-family: Satisfy;
+    color: azure;
+    font-size: 30px;
+    z-index: 2;
+    display: block;
+    position: absolute;
+    margin: 300px 500px 213px 800px;
+}
+
+.header5 {
+    font-family: sans-serif;
+    color: azure;
+    font-size: 20px;
+    z-index: 2;
+    display: block;
+    position: absolute;
+    margin: 800px 50px ;
+}
+
+.header6 {
+    font-family: sans-serif;
+    color: azure;
+    font-size: 20px;
+    z-index: 2;
+    display: block;
+    position: absolute;
+    margin: 800px 1400px ;
+}
+
+.slide2 {
+    background-color: #55758E;
+}
+
+/* ----------slide---------- 3 */
+
+.slide3 {
+  padding: 20px;
+  background: linear-gradient(to bottom, #171717 2%, #000000);
+}
+.responsive-container {
+  position: relative;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 60%;
+}
+.responsive-container > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}  
+
+/* ---------------- slide 3 end ----------- */
+
+.responsive-container {
+  position: relative;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 60%; /* the higher the bigger the ratio */
+}
+
+.responsive-container > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}  
